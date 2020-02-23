@@ -10,7 +10,7 @@ folderContent.sort()
 # Use regex to find patterns
 print(folderContent)
 stringofFiles = str(folderContent)
-
+#this can be edited for different filetypes.
 fileRegex = re.compile(r'''(
     (\w+)
     (\d{3})
